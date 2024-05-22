@@ -1,0 +1,85 @@
+/*body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-area {
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+canvas {
+    display: block;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-area {
+    border: 2px solid #333;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+canvas {
+    display: block;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.conteiner__button {
+    display: flex;
+    min-width: 26%;
+    justify-content: space-between;
+}
+
+.nav_snake {}
+
+.nav_snake-restart {}
+
+.nav_snake-skils> {}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.math-question {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

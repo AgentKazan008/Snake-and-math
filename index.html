@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Snake2</title>
+</head>
+
+<body>
+    <div class="game-area">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+    <div class="conteiner__button nav_snake">
+        <button id="restartButton" class="nav_snake-restart">Restart</button>
+        <select id="difficulty" class="nav_snake-skils">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <div class="math-question">
+        <span id="questionText"></span>
+        <input type="number" id="answerInput" />
+        <button id="submitAnswer">Submit</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
